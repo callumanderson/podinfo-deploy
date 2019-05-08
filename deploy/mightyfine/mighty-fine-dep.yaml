@@ -1,6 +1,7 @@
+---
 apiVersion: apps/v1
 kind: Deployment
-metadata: 
+metadata:
   name: mightyfine
   namespace: dev
   annotations:
@@ -19,7 +20,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: quay.io/brice/metrics-demo:v4-subscription-service
+        image: quay.io/brice/metrics-demo:master
         command:
         - ./mightyfine
         - --port=3000
