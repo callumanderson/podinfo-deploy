@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: mightyfine
+  name: mighty-fine
   namespace: dev
 spec:
   type: ClusterIP
@@ -11,4 +11,4 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app: mightyfine
+    app: mighty-fine
