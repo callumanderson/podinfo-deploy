@@ -5,7 +5,7 @@ metadata:
     kubernetes.io/ingress.class: traefik
     traefik.frontend.rule.type: PathPrefixStrip
   creationTimestamp: null
-  name: mioghtyfine
+  name: mightyfine
   namespace: dev
 spec:
   rules:
