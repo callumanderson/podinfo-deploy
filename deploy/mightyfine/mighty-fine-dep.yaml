@@ -2,14 +2,14 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mightyfine
+  name: mighty-fine
   namespace: dev
   annotations:
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: mightyfine
+      app: mighty-fine
   template:
     metadata:
       labels:
