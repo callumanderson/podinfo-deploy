@@ -21,7 +21,7 @@ spec:
       - name: podinfod
         image: quay.io/brice/metrics-demo:master
         command:
-        - ./mighty-fine
+        - ./mightyfine
         - --port=3000
         ports:
         - containerPort: 3000
