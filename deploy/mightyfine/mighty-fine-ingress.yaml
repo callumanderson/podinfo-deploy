@@ -16,4 +16,4 @@ spec:
           servicePort: 3000
         path: /mightyfine
 status:
-  loadbalancer: {}
+  loadBalancer: {}
