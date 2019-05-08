@@ -1,0 +1,1 @@
+{"jobID":"c8c4e5e2-94f7-504d-7b6a-35f09167a37e","spec":{"type":"policy","cause":{"Message":"","User":"Sunny Bhogal \u003csnk.bhogal@googlemail.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":{"automated":"true"},"remove":null}}},"result":null}
