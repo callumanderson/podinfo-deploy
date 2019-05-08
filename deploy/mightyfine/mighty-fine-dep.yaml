@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: mightyfine
-        image: quay.io/brice/metrics-demo:v4-subscription-service
+        image: quay.io/brice/metrics-demo:master
         command:
         - ./mighty-fine
         - --port=3000
