@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-        app: mightyfine
+        app: mighty-fine
       annotations:
         prometheus.io/scrape: 'true'
     spec:
@@ -21,7 +21,7 @@ spec:
       - name: podinfod
         image: quay.io/brice/metrics-demo:v4-subscription-service
         command:
-        - ./mightyfine
+        - ./mighty-fine
         - --port=3000
         ports:
         - containerPort: 3000
